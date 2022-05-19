@@ -10,13 +10,13 @@ services:
     ports:
       - 3306:3306
 
-  myredis:
-    image: redis
-    container_name: myredis
-    command:
-      - redis-server --port 6379
-    labels:
-      - "name=redis"
-      - "mode=standalone"
-    ports:
-      - 6379:6379
+#  myredis:
+#    image: redis
+#    container_name: myredis
+#    command:
+#      - redis-server --port 6379
+#    labels:
+#      - "name=redis"
+#      - "mode=standalone"
+#    ports:
+#      - 6379:6379
