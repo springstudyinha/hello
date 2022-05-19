@@ -15,7 +15,6 @@ services:
     container_name: myredis
     command:
       - redis-server --port 6379
-      - redis-cli config set notify-keyspace-events AKE
     labels:
       - "name=redis"
       - "mode=standalone"
