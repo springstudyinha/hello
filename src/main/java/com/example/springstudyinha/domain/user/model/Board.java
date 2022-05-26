@@ -13,7 +13,7 @@ import java.util.Objects;
 @NoArgsConstructor
 @Getter
 @Builder(builderMethodName = "BoardBuilder")
-public class Board {
+public class Board extends BaseTIme{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long boardName;
